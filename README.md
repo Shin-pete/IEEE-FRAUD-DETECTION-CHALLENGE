@@ -3,4 +3,4 @@
 
 ## Notebook
 
-[Here's my Notebook]
+[Here's my Notebook](https://github.com/Shin-pete/IEEE-FRAUD-DETECTION-CHALLENGE/blob/master/Final_Notebook.ipynb)
