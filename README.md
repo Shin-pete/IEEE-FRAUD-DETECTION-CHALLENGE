@@ -16,4 +16,4 @@ Results: The model has an AUC-ROC score of .9073..
 
 ![Celebration_gif](https://acegif.com/wp-content/uploads/funny-celebrate-40.gif)
 
-Conclusion: While good work has been done on this model, it can be further improved by doing further analysis on the anonymized features as well as gaining a deeper understanding of Fraudulent transactions in the first place. 
+Conclusion: While some good work has been done on this model, it can be further improved by doing further analysis on the anonymized features as well as gaining a deeper understanding of Fraudulent transactions in the first place. 
