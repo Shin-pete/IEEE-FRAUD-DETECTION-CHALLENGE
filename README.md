@@ -11,17 +11,21 @@ Fraud costs businesses and consumers millions of dollars a year. One potential s
 
 Methodology: 
 
-We first begin by gathering up our data [Here](https://www.kaggle.com/c/ieee-fraud-detection/data)
+We first begin by gathering up our data [here](https://www.kaggle.com/c/ieee-fraud-detection/data)
 
-Upon Examination we learned many interesting things like the fact that .mail and .gmail when used as primary and secondary email addresses together, represented a large percentage of fraudulent transactions. We learned similar things about android devices. Some of the data is anonymized and doesn't offer up much in the way of information at face value, however going back and visualizing it might prove to be a useful intevention. 
+Upon examination we learned many interesting things like the fact that .mail and .gmail when used as primary and secondary email addresses together, represented a large percentage of fraudulent transactions. We learned similar things about android devices. Some of the data is anonymized and doesn't offer up much in the way of information at face value, however going back and visualizing it might prove to be a useful intervention. 
 
 
 We then attempted a variety of modeling techniques, the one in the notebook is a LIGHT-GBM model and our hyperparameters were tuned by gridsearch already. 
 
 
-Results: The model has an AUC-ROC score of .9073..
+Results: 
+
+The model has an AUC-ROC score of .9073. We successfully predicting very large percentage of the fraudulent activity without compromising performance on non fraud cases too much. 
 
 ![Celebration_gif](https://acegif.com/wp-content/uploads/funny-celebrate-40.gif)
 
 
-Conclusion: While some good work has been done on this model, it can be further improved by doing further analysis on the anonymized features as well as gaining a deeper understanding of Fraudulent transactions in the first place. 
+Conclusion: 
+
+While some good work has been done on this model, it can be further improved by doing further analysis on the anonymized features as well as gaining a deeper understanding of fraudulent transactions in the first place. 
